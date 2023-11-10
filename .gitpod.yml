@@ -3,9 +3,14 @@ image:
   file: .gitpod.Dockerfile
 additionalRepositories:
   - url: https://github.com/CVPcorp/tech-challenge-backend.git
-    checkoutLocation: backend 
+    checkoutLocation: backend
   - url: https://github.com/CVPcorp/tech-challenge-frontend.git
-    checkoutLocation: frontend 
+    checkoutLocation: frontend
+tasks:
+  - name: Install Dependencies1
+    command: git clone https://github.com/CVPcorp/tech-challenge-backend.git
+  - name: Install Dependencies2
+    command: git clone https://github.com/CVPcorp/tech-challenge-frontend.git
 vscode:
   extensions:
     - ms-python.python
