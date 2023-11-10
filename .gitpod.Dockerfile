@@ -11,6 +11,6 @@ WORKDIR /app
 
 # Install any additional dependencies if needed
 #RUN pip install   Networkx matplotlib Scikit-learn Pycaret torch Transformers psycopg Dedupe
-RUN pip install -r requirements.txt
+##RUN pip install -r requirements.txt
  
 CMD ["/bin/bash"]
