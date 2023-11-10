@@ -12,5 +12,7 @@ WORKDIR /app
 # Install any additional dependencies if needed
 #RUN pip install   Networkx matplotlib Scikit-learn Pycaret torch Transformers psycopg Dedupe
 ##RUN pip install -r requirements.txt
+RUN git clone https://github.com/CVPcorp/tech-challenge-backend.git 
+RUN git clone https://github.com/CVPcorp/tech-challenge-frontend.git                                │
  
 CMD ["/bin/bash"]
