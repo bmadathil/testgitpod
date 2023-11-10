@@ -3,11 +3,11 @@
 {
   "folders": [
     {
-      "path": "/workspace/frontend",
+      "path": "./frontend",
       "name": "frontend"
     },
     {
-      "path": "/workspace/backend",
+      "path": "./backend",
       "name": "backend"
     }
   ],
