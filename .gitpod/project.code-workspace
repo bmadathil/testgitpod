@@ -1,0 +1,20 @@
+// .gitpod/project.code-workspace
+
+{
+  "folders": [
+    {
+      "path": "/workspace/frontend",
+      "name": "frontend"
+    },
+    {
+      "path": "/workspace/backend",
+      "name": "backend"
+    }
+  ],
+  "settings": {
+    "git.ignoreMissingGitWarning": true
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint"
+  ]
+}

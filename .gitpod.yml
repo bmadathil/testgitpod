@@ -1,0 +1,11 @@
+---
+image:
+  file: .gitpod.Dockerfile
+additionalRepositories:
+  - url: https://github.com/CVPcorp/tech-challenge-backend.git
+    checkoutLocation: backend 
+  - url: https://github.com/CVPcorp/tech-challenge-frontend.git
+    checkoutLocation: frontend 
+vscode:
+  extensions:
+    - ms-python.python
